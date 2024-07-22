@@ -19,6 +19,7 @@ project_files = [
     'lib/utils/keys.dart',
     'lib/utils/tools.dart',
     'lib/utils/styles.dart',
+    'lib/utils/themes.dart',
 ]
 # Define the dependencies to add
 dependencies = [
