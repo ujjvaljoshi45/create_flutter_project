@@ -11,15 +11,18 @@
 
 ## Add to Envirnment Variable:
   ### macos (zshrc):
-  - In terminal run : cd
-  - nano ./zshrc
+  - In terminal run :
+  -     cd
+  -     nano ./zshrc
   - add following at the bottom:
-        export PATH="$HOME/path_from_home_to_this_repo:$PATH"
+  -     export PATH="$HOME/path_from_home_to_this_repo:$PATH"
   - save and exit
-  - run : alias create_flutter_project='python3 ~/path_to_git_repo_from_home/create_flutter_project.py'
-  - run: source ~/.zshrc
+  - run :
+  -     alias create_flutter_project='python3 ~/path_to_git_repo_from_home/create_flutter_project.py'
+  - run:
+  -     source ~/.zshrc
 
 ## How To Use:
-  - After adding ENV Variable
-  -     run create_flutter_project
+  - After adding ENV Variable Run:
+  -      create_flutter_project
 
