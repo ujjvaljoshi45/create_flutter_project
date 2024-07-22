@@ -6,6 +6,11 @@ import sys
 project_name = input("Enter Project Name eg: 'project_name' : ")
 bundle_id = input("Enter Project Bundle ID eg: 'com.ujjval.project' : ")
 
+if len(project_name) <= 1:
+    project_name = 'ujjvl_project'
+if len(bundle_id) <= 1:
+    bundle_id = 'com.ujjval.bundle'
+    
 # Define the predefined project structure
 project_structure = [
     "lib/screens",
